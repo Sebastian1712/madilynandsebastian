@@ -28,24 +28,25 @@ const purposeParagraph =
 
 function Home() {
   return (
-    
     <main>
 
-        <div class="header one">
-            <h1 style = {firstPicStyle}> Stylin' since 2015
+        <div class="mainpage">
+            
+            <h1 class="h1"> Stylin' since 2015
             <p>* Madilyn and Sebastian *</p>
             </h1>
 
-            <h2 style = {secondPicStyle}> 
+            <h2> 
             
-            <p>
+            <p class="mission">
                 {purposeParagraph}
             </p>
 
             </h2>
-        </div>
-    </main>
 
+        </div>
+
+    </main>
   );
 }
 
