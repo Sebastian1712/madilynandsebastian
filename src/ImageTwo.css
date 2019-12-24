@@ -36,6 +36,23 @@
     }
 }
 
+@media screen and (max-width: 375px)
+{
+    .section-2 {
+        position: relative;
+    }
+
+     .section-2 .imageTwo .actualImageTwo {
+       position: relative;
+       top: 50px;
+    }
+
+    .section-2 .imageTwo .textTwo {
+        position: relative;
+        bottom: 300px;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     .section-2 {

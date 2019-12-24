@@ -21,6 +21,27 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 375px) {
+    .section-3 {
+        position: relative;
+    }
+
+    .section-3 .imageThree p {
+        position: relative;
+        top: 40px;
+    }
+
+    .section-3 .imageThree .actualImageThree {
+        position: relative;
+        top: 80px;
+    }
+
+    .section-3 .imageThree .textThree {
+        position: relative;
+        bottom: 270px;
+    }
+}
+
 @media screen and (min-width: 900px) {
 
     .section-3 .imageThree p {
