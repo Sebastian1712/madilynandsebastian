@@ -1,23 +1,23 @@
 import React from 'react';
 import './App.css';
-import Background from './images/IMG_0438.JPG';
-import SecondHomePic from './images/IMG_0483.jpg';
+// import Background from './images/IMG_0438.JPG';
+// import SecondHomePic from './images/IMG_0483.jpg';
 import './Home.css';
 import './main.scss';
 
-const firstPicStyle = {
-    backgroundImage: `url( ${Background})`,
-    height: '800px',
-    backgroundSize: 'cover',
-    margin: 0
-}
+// const firstPicStyle = {
+//     backgroundImage: `url( ${Background})`,
+//     height: '800px',
+//     backgroundSize: 'cover',
+//     margin: 0
+// }
 
-const secondPicStyle = {
-    backgroundImage: `url( ${SecondHomePic} )`,
-    height: '800px',
-    backgroundSize: 'cover',
-    margin: 0
-}
+// const secondPicStyle = {
+//     backgroundImage: `url( ${SecondHomePic} )`,
+//     height: '800px',
+//     backgroundSize: 'cover',
+//     margin: 0
+// }
 
 const purposeParagraph = 
 <p1>
