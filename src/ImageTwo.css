@@ -21,11 +21,34 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 375px)
+{
+    .section-2 {
+        position: relative;
+    }
+
+    .section-2 .imageTwo .parTwo {
+        position: absolute;
+        top: 300px;
+    }
+
+     .section-2 .imageTwo .actualImageTwo {
+       position: relative;
+       top: 0px;
+    }
+
+    .section-2 .imageTwo .textTwo {
+        position: relative;
+        bottom: 365px;
+    }
+}
+
+
 @media screen and (min-width: 900px) {
     .section-2 .imageTwo p {
         width: 300px;
         position: relative;
-        bottom: 300px;
+        bottom: 330px;
         right: 140px;
         text-align: left;
         text-indent: 20px;
@@ -33,23 +56,6 @@
         font-weight: 400;
         font-size: 95%;
         color: #fff;
-    }
-}
-
-@media screen and (max-width: 375px)
-{
-    .section-2 {
-        position: relative;
-    }
-
-     .section-2 .imageTwo .actualImageTwo {
-       position: relative;
-       top: 50px;
-    }
-
-    .section-2 .imageTwo .textTwo {
-        position: relative;
-        bottom: 300px;
     }
 }
 
