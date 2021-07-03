@@ -1,0 +1,5 @@
+The idea behind refactoring the home page is mainly to clean the app itself.
+Add a pages folder
+Add a components folder 
+Add a public folder
+Refactor the Home.js and App.js file itself.
