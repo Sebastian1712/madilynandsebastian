@@ -7,7 +7,7 @@ import thirdPic from '../../images/IMG_4997 2.JPG';
 import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
 import '../../images/style/ImageThree.css';
-import '../../mainTwo.scss';
+import '../../responsive/mainTwo.scss';
 
 // Color of background
 document.body.style = 'background: #B4A67F;';

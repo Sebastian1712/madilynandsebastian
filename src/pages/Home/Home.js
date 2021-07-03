@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../app/App.css';
 import './Home.css';
-import '../../main.scss';
+import '../../responsive/main.scss';
 
 const purposeParagraph = 
 <p1>
