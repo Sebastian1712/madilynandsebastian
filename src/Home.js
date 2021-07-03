@@ -33,7 +33,7 @@ function Home() {
         <div class="mainpage">
             
             <h1 class="h1"> Stylin' since 2015
-            <p>Madilyn and Sebastian</p>
+            <p> 👩🏻‍⚕️ Madilyn and Sebastian 🧑🏻‍💻 </p>
             </h1>
 
             <h2> 
