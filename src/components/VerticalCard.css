@@ -12,11 +12,11 @@
     height: 100px;
 }
 
-.imageBox .leftImage {
+.verticalCard .imageBox .leftImage {
     position: relative;
 }
 
-.destination {
+.verticalCard .destination {
     position: relative;
     right: 350px;
     top: 50px;
@@ -27,7 +27,7 @@
     font-style: italic;
 }
 
-.date {
+.verticalCard .date {
     position: relative;
     right: 350px;
     top: 55px;
@@ -38,10 +38,10 @@
     font-style: italic;
 }
 
-.summary {
+.verticalCard .summary {
     position: relative;
     width: 300px;
-    top : 125px;
+    top : 75px;
     left: 62%;
     text-align: left;
     text-indent: 20px;

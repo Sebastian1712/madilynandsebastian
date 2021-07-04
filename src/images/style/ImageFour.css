@@ -1,0 +1,85 @@
+.section-2 {
+    width: 100%;
+    height: 400px;
+    /* background-color: #000; */
+    position: relative;
+}
+
+.imageTwo {
+    position: relative;
+    top: 50px;
+    left: 290px;
+}
+
+.imageTwo .textTwo {
+    position: relative;
+    bottom: 345px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 89%;
+    color: #fff;
+    font-style: italic;
+}
+
+@media screen and (max-width: 375px)
+{
+    .section-2 {
+        position: relative;
+    }
+
+    .section-2 .imageTwo .parTwo {
+        position: absolute;
+        top: 300px;
+    }
+
+     .section-2 .imageTwo .actualImageTwo {
+       position: relative;
+       top: 0px;
+    }
+
+    .section-2 .imageTwo .textTwo {
+        position: relative;
+        bottom: 365px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .section-2 .imageTwo p {
+        width: 300px;
+        position: relative;
+        bottom: 330px;
+        right: 140px;
+        text-align: left;
+        text-indent: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 95%;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .section-2 {
+        position: relative;
+    }
+
+    .section-2 .imageTwo { 
+        position: relative;
+        left: 10px;
+        top: 150px;
+    }
+
+    .section-2 .imageTwo p {
+        position: relative;
+        right: 10px;
+        top: 10px;
+        text-align: left;
+        text-indent: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        font-size: 95%;
+        color: #fff; 
+    }
+}
