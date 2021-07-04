@@ -31,6 +31,16 @@ let cardTwo = {
     height: '300'
 }
 
+let cardThree = {
+    destination: 'Oregon',
+    date: 'Summer 2018',
+    summary: 'Never hungry. Never not smiling. This is how I would describe our trip to Portland. As soon as we arrived we had some delicious Thai food near our airbnb and from there on we knew we were in the right city to be foodies. After coming back from my internship I was blessed with a wave of joy during this trip. I thought we truly learned more about each other during this trip than any other time in our relationship. From walking through sketchy neighborhoods, to me being a time freak regarding the airport. P.S. smelling flowers with you was one of the most serene and joyous moments of my life.',
+    image: thirdPic,
+    width: '250',
+    height: '300'
+}
+
+
 function Adventure() {
   return (
     <main>
@@ -66,21 +76,21 @@ function Adventure() {
         </section> */}
 
         <LeftCard
-        destination={cardOne.destination}
-        date={cardOne.date}
-        summary={cardOne.summary}
-        image={cardOne.image}
-        width={cardOne.width}
-        height={cardOne.height}>
+        destination={cardTwo.destination}
+        date={cardTwo.date}
+        summary={cardTwo.summary}
+        image={cardTwo.image}
+        width={cardTwo.width}
+        height={cardTwo.height}>
         </LeftCard>
 
         <LeftCard 
-        destination={cardOne.destination}
-        date={cardOne.date}
-        summary={cardOne.summary}
-        image={cardOne.image}
-        width={cardOne.width}
-        height={cardOne.height}>
+        destination={cardThree.destination}
+        date={cardThree.date}
+        summary={cardThree.summary}
+        image={cardThree.image}
+        width={cardThree.width}
+        height={cardThree.height}>
         </LeftCard>
 {/* 
         <section class="section-3">

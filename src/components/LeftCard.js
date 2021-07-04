@@ -4,6 +4,10 @@ import './LeftCard.css';
 export default function LeftCard(props) {
     return (
         <div className='leftCard'>
+            <div className='imageBox'>
+                <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}>
+                </img>
+            </div>
             <text className='destination'>
                 {props.destination}
             </text>
@@ -15,8 +19,7 @@ export default function LeftCard(props) {
             <p className='summary'>
                 {props.summary}
             </p>
-            <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}>
-            </img>
+
         </div>
     );
 }
