@@ -61,7 +61,6 @@ let cardFive = {
     height: '300'
 }
 
-
 function Adventure() {
   return (
     <main>
@@ -69,7 +68,6 @@ function Adventure() {
             <div>
                 <header>Adventures</header>
             </div>
-         {/* this section will have the first image and the first paragraph  */}
 
         <LeftCard 
         destination={cardOne.destination}
