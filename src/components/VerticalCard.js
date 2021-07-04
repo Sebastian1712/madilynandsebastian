@@ -1,9 +1,9 @@
 import React from 'react';
-import './LeftCard.css';
+import './VerticalCard.css';
 
 export default function LeftCard(props) {
     return (
-        <div className='leftCard'>
+        <div className='verticalCard'>
             <div className='imageBox'>
                 <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}>
                 </img>

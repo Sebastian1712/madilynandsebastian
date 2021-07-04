@@ -9,6 +9,8 @@ import '../../images/style/ImageTwo.css';
 import '../../images/style/ImageThree.css';
 import '../../responsive/mainTwo.scss';
 import LeftCard from '../../components/LeftCard.js'
+import VerticalCard from '../../components/VerticalCard.js'
+
 
 // Color of background
 document.body.style = 'background: #B4A67F;';
@@ -75,23 +77,23 @@ function Adventure() {
 
         </section> */}
 
-        <LeftCard
+        <VerticalCard
         destination={cardTwo.destination}
         date={cardTwo.date}
         summary={cardTwo.summary}
         image={cardTwo.image}
         width={cardTwo.width}
         height={cardTwo.height}>
-        </LeftCard>
+        </VerticalCard>
 
-        <LeftCard 
+        <VerticalCard 
         destination={cardThree.destination}
         date={cardThree.date}
         summary={cardThree.summary}
         image={cardThree.image}
         width={cardThree.width}
         height={cardThree.height}>
-        </LeftCard>
+        </VerticalCard>
 {/* 
         <section class="section-3">
             
