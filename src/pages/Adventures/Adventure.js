@@ -8,9 +8,28 @@ import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
 import '../../images/style/ImageThree.css';
 import '../../responsive/mainTwo.scss';
+import LeftCard from '../../components/LeftCard.js'
 
 // Color of background
 document.body.style = 'background: #B4A67F;';
+
+let cardOne = {
+    destination: 'Washington DC',
+    date: 'Summer 2018',
+    summary: 'My first ever summer alone was filled with so much alone time that one of the only things to do was think. As soon as you arrived in Washington DC I had my best friend to talk about everything and everything. You arriving to DC made it feel more like home and it opened up my eyes to the adventures to come.',
+    image: firstPic,
+    width: '500',
+    height: '300'
+}
+
+let cardTwo = {
+    destination: 'Oregon',
+    date: 'Summer 2018',
+    summary: 'Never hungry. Never not smiling. This is how I would describe our trip to Portland. As soon as we arrived we had some delicious Thai food near our airbnb and from there on we knew we were in the right city to be foodies. After coming back from my internship I was blessed with a wave of joy during this trip. I thought we truly learned more about each other during this trip than any other time in our relationship. From walking through sketchy neighborhoods, to me being a time freak regarding the airport. P.S. smelling flowers with you was one of the most serene and joyous moments of my life.',
+    image: secondPic,
+    width: '250',
+    height: '300'
+}
 
 function Adventure() {
   return (
@@ -20,20 +39,16 @@ function Adventure() {
                 <header>Adventures</header>
             </div>
          {/* this section will have the first image and the first paragraph  */}
-        <section class="section-1">
-            <div class="imageOne">
 
-                <img class="actualImageOne" src={firstPic} width="500" height="300"/> 
-
-                <div class="textOne">
-                    <text>Destination: Washington DC <br/> Date: Summer 2018</text>
-                </div>
-
-                <p>My first ever summer alone was filled with  so much alone time that one of the only things to do was think. As soon as you arrived in Washington DC I had my best friend to talk about everything and everything. You arriving to DC made it feel more like home and it opened up my eyes to the adventures to come. </p>
-            </div>
-
-        </section>
-
+        <LeftCard 
+        destination={cardOne.destination}
+        date={cardOne.date}
+        summary={cardOne.summary}
+        image={cardOne.image}
+        width={cardOne.width}
+        height={cardOne.height}>
+        </LeftCard>
+{/* 
         <section class="section-2">
 
             <div class="imageTwo">
@@ -48,8 +63,26 @@ function Adventure() {
 
             </div>
 
-        </section>
+        </section> */}
 
+        <LeftCard
+        destination={cardOne.destination}
+        date={cardOne.date}
+        summary={cardOne.summary}
+        image={cardOne.image}
+        width={cardOne.width}
+        height={cardOne.height}>
+        </LeftCard>
+
+        <LeftCard 
+        destination={cardOne.destination}
+        date={cardOne.date}
+        summary={cardOne.summary}
+        image={cardOne.image}
+        width={cardOne.width}
+        height={cardOne.height}>
+        </LeftCard>
+{/* 
         <section class="section-3">
             
             <div class="imageThree">
@@ -63,7 +96,7 @@ function Adventure() {
                 <p class="parThree">“Tumbling…” (Inside joke) hehe. This trip was filled with pure unknowns. From the bus breaking down to somehow experiencing the moon slowly rise over Half Dome. I picked this picture because it has some sort of relaxing and peaceful vibe to it and it also has two different colors, black and white. Similar to our trip, where we experienced the beauty and immensity of nature, but also the craziness of San Francisco traffic and hippie professors.</p>
             
             </div>
-        </section>
+        </section> */}
 
         </div>
     </main>
