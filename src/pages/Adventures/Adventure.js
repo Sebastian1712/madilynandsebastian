@@ -13,6 +13,7 @@ import '../../responsive/mainTwo.scss';
 import LeftCard from '../../components/LeftCard.js'
 import VerticalCard from '../../components/VerticalCard.js'
 
+
 // Color of background
 document.body.style = 'background: #B4A67F;';
 
