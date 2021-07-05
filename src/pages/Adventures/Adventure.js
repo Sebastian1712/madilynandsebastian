@@ -6,6 +6,9 @@ import secondPic from '../../images/IMG_1487.JPG';
 import thirdPic from '../../images/IMG_4997 2.JPG';
 import fourthPic from '../../images/IMG_8061.JPG';
 import fifthPic from '../../images/IMG_2426.JPG';
+import sixthPic from '../../images/IMG_2955.jpg';
+import seventhPic from '../../images/IMG_4552.jpg';
+
 import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
 import '../../images/style/ImageThree.css';
@@ -61,6 +64,24 @@ let cardFive = {
     height: '300'
 }
 
+let cardSix = {
+    destination: 'Zion National Park',
+    date: 'Summer 2021',
+    summary: 'My first ever summer alone was filled with so much alone time that one of the only things to do was think. As soon as you arrived in Washington DC I had my best friend to talk about everything and everything. You arriving to DC made it feel more like home and it opened up my eyes to the adventures to come.',
+    image: sixthPic,
+    width: '500',
+    height: '300'
+}
+
+let cardSeven = {
+    destination: 'Arches National Park',
+    date: 'Summer 2021',
+    summary: '“Tumbling…” (Inside joke) hehe. This trip was filled with pure unknowns. From the bus breaking down to somehow experiencing the moon slowly rise over Half Dome. I picked this picture because it has some sort of relaxing and peaceful vibe to it and it also has two different colors, black and white. Similar to our trip, where we experienced the beauty and immensity of nature, but also the craziness of San Francisco traffic and hippie professors.',
+    image: seventhPic,
+    width: '250',
+    height: '300'
+}
+
 function Adventure() {
   return (
     <main>
@@ -113,6 +134,24 @@ function Adventure() {
         width={cardFive.width}
         height={cardFive.height}>
         </LeftCard>
+
+        <LeftCard 
+        destination={cardSix.destination}
+        date={cardSix.date}
+        summary={cardSix.summary}
+        image={cardSix.image}
+        width={cardSix.width}
+        height={cardSix.height}>
+        </LeftCard>
+
+        <VerticalCard 
+        destination={cardSeven.destination}
+        date={cardSeven.date}
+        summary={cardSeven.summary}
+        image={cardSeven.image}
+        width={cardSeven.width}
+        height={cardSeven.height}>
+        </VerticalCard>
 
         </div>
     </main>
