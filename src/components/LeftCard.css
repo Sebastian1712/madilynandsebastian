@@ -12,8 +12,9 @@
     height: 100px;
 }
 
-.leftCard .imageBox .leftImage {
+.leftCard .imageBox img {
     position: relative;
+    border: 7px solid #fff;
 }
 
 .leftCard .destination {
@@ -72,6 +73,7 @@
 
     .leftCard {
         position: relative;
+        margin-bottom: 200px;
     }
 
     .leftCard .imageBox { 

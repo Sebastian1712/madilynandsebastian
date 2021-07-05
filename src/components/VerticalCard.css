@@ -12,13 +12,14 @@
     height: 100px;
 }
 
-.verticalCard .imageBox .leftImage {
+.verticalCard .imageBox img {
     position: relative;
+    border: 7px solid #fff;
 }
 
 .verticalCard .destination {
     position: relative;
-    right: 350px;
+    right: 330px;
     top: 50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -29,7 +30,7 @@
 
 .verticalCard .date {
     position: relative;
-    right: 350px;
+    right: 330px;
     top: 55px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -72,6 +73,7 @@
 
     .verticalCard {
         position: relative;
+        margin-bottom: 500px;
     }
 
     .verticalCard .imageBox { 
@@ -101,5 +103,6 @@
         left: 100px;
         top: 575px;
         text-align: center;
+        margin-bottom: 50px;
     }
 } 
