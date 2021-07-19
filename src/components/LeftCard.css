@@ -1,106 +1,20 @@
-.leftCard {
-    max-width: 100%;
-    height: 400px;
-    position: static;
+@media(min-width: 376px) {
+    .container-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
 
-.imageBox {
-    position: relative;
-    top: 50%;
-    left: 150px;
-    width: 100px;
-    height: 100px;
+/* .box-1 img {
+    width: 500px;
+} */
+
+.box-2 {
+    flex-basis: 30%;
+    align-self: center;
 }
 
-.leftCard .imageBox img {
-    position: relative;
-    border: 7px solid #fff;
-}
-
-.leftCard .destination {
-    position: relative;
-    right: 325px;
-    top: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 89%;
-    color: #fff;
-    font-style: italic;
-}
-
-.leftCard .date {
-    position: relative;
-    right: 325px;
-    top: 55px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 89%;
-    color: #fff;
-    font-style: italic;
-}
-
-.leftCard .summary {
-    position: relative;
-    width: 300px;
-    top : 125px;
-    left: 62%;
+.box-2 p {
     text-align: left;
-    text-indent: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 95%;
-    color: #fff; 
 }
-
-/* this is for large screen */
-@media screen and (min-width: 600px) {
-
-    .leftCard .summary {
-        width: 300px;
-        position: relative;
-        bottom: 250px;
-        left: 62%;
-        text-align: left;
-        text-indent: 20px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: 400;
-        font-size: 95%;
-        color: #fff; 
-    }
-}
-
-@media screen and (max-width: 900px) {
-
-    .leftCard {
-        position: relative;
-        margin-bottom: 200px;
-    }
-
-    .leftCard .imageBox { 
-        position: relative;
-        width: 100%;
-        left: 1px;
-    }
-
-    .leftCard .imageBox img {
-        width: 500;
-    }
-
-    .leftCard .destination {
-        left: 15px;
-        top: 50px;
-        color: #fff;
-    }
-
-    .leftCard .date {
-        left: 15px;
-        top: 50px;
-        color: #fff;
-    }
-
-    .leftCard .summary {
-        left: 100px;
-        top: 375px;
-        text-align: center;
-    }
-} 

@@ -1,24 +1,16 @@
 import React from 'react';
 import './VerticalCard.css';
 
-export default function LeftCard(props) {
+export default function VerticalCard(props) {
     return (
-        <div className='verticalCard'>
-            <div className='imageBox'>
-                <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}>
-                </img>
+        <div className='vertical-container-1'>
+            <div className='vertical-box-1'>
+                <h5 className='vertical-info'>{props.destination}<br></br>{props.date}</h5>
+                <img className='verticalImg' src={props.image} alt={'verticalImg'} width={props.width} height={props.height}></img>
             </div>
-            <text className='destination'>
-                {props.destination}
-            </text>
-            <br>
-            </br>
-            <text className='date'>
-                {props.date}
-            </text>
-            <p className='summary'>
-                {props.summary}
-            </p>
+            <div className='vertical-box-2'>
+                <p className='summary'>{props.summary}</p>
+            </div>
         </div>
     );
 }

@@ -99,7 +99,7 @@ function Adventure() {
         height={cardOne.height}>
         </LeftCard>
 
-        <VerticalCard
+        <VerticalCard 
         destination={cardTwo.destination}
         date={cardTwo.date}
         summary={cardTwo.summary}
@@ -115,42 +115,6 @@ function Adventure() {
         image={cardThree.image}
         width={cardThree.width}
         height={cardThree.height}>
-        </VerticalCard>
-
-        <VerticalCard 
-        destination={cardFour.destination}
-        date={cardFour.date}
-        summary={cardFour.summary}
-        image={cardFour.image}
-        width={cardFour.width}
-        height={cardFour.height}>
-        </VerticalCard>
-
-        <LeftCard 
-        destination={cardFive.destination}
-        date={cardFive.date}
-        summary={cardFive.summary}
-        image={cardFive.image}
-        width={cardFive.width}
-        height={cardFive.height}>
-        </LeftCard>
-
-        <LeftCard 
-        destination={cardSix.destination}
-        date={cardSix.date}
-        summary={cardSix.summary}
-        image={cardSix.image}
-        width={cardSix.width}
-        height={cardSix.height}>
-        </LeftCard>
-
-        <VerticalCard 
-        destination={cardSeven.destination}
-        date={cardSeven.date}
-        summary={cardSeven.summary}
-        image={cardSeven.image}
-        width={cardSeven.width}
-        height={cardSeven.height}>
         </VerticalCard>
 
         </div>
