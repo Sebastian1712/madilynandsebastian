@@ -3,22 +3,14 @@ import './LeftCard.css';
 
 export default function LeftCard(props) {
     return (
-        <div className='leftCard'>
-            <div className='imageBox'>
-                <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}>
-                </img>
+        <div className='container-1'>
+            <div className='box-1'>
+                <h5 className='info'>{props.destination}<br></br>{props.date}</h5>
+                <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}></img>
             </div>
-            <text className='destination'>
-                {props.destination}
-            </text>
-            <br>
-            </br>
-            <text className='date'>
-                {props.date}
-            </text>
-            <p className='summary'>
-                {props.summary}
-            </p>
+            <div className='box-2'>
+                <p className='summary'>{props.summary}</p>
+            </div>
         </div>
     );
 }

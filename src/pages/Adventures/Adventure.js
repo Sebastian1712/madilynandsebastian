@@ -8,6 +8,7 @@ import fourthPic from '../../images/IMG_8061.JPG';
 import fifthPic from '../../images/IMG_2426.JPG';
 import sixthPic from '../../images/IMG_2955.jpg';
 import seventhPic from '../../images/IMG_4552.jpg';
+import eightPic from '../../images/013804010002.jpg'
 
 import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
@@ -49,16 +50,16 @@ let cardThree = {
 let cardFour = {
     destination: 'The Keys',
     date: 'Summer 2020',
-    summary: '“Tumbling…” (Inside joke) hehe. This trip was filled with pure unknowns. From the bus breaking down to somehow experiencing the moon slowly rise over Half Dome. I picked this picture because it has some sort of relaxing and peaceful vibe to it and it also has two different colors, black and white. Similar to our trip, where we experienced the beauty and immensity of nature, but also the craziness of San Francisco traffic and hippie professors.',
+    summary: 'After a few crazy months of 2020 due to the pandemic, a much needed Maschhoff family trip was needed. A trip filled with joy, laughter, and a family of manatees swimming beside Madilyn and I as I (Sebastian) tried my hardest to not fall from that paddle board. 🌊',
     image: fourthPic,
     width: '250',
     height: '300'
 }
 
 let cardFive = {
-    destination: 'Utah',
+    destination: 'Park City, Utah',
     date: 'Winter 2020',
-    summary: '“Tumbling…” (Inside joke) hehe. This trip was filled with pure unknowns. From the bus breaking down to somehow experiencing the moon slowly rise over Half Dome. I picked this picture because it has some sort of relaxing and peaceful vibe to it and it also has two different colors, black and white. Similar to our trip, where we experienced the beauty and immensity of nature, but also the craziness of San Francisco traffic and hippie professors.',
+    summary: 'The first winter in Utah... From skiing, to snow tubing, to lots of nice warm coffees in the morning. This trip was really just filled with Madilyn making fun of me for never having the correct clothes for winter. Especially those white converse... ❄️ 🥶',
     image: fifthPic,
     width: '500',
     height: '300'
@@ -67,7 +68,7 @@ let cardFive = {
 let cardSix = {
     destination: 'Zion National Park',
     date: 'Summer 2021',
-    summary: 'My first ever summer alone was filled with so much alone time that one of the only things to do was think. As soon as you arrived in Washington DC I had my best friend to talk about everything and everything. You arriving to DC made it feel more like home and it opened up my eyes to the adventures to come.',
+    summary: 'Switch back after switch back... A trip to Zion that was made up of crazy squirrels, cool adventurous folks, and a nasty looking Angels Landing. Madilyn and I first encountered the breathe taking views of Utah National Parks as we starred at the sun rising over the edge of a red rock hitting the one lonely tree just right... 🌳',
     image: sixthPic,
     width: '500',
     height: '300'
@@ -76,9 +77,18 @@ let cardSix = {
 let cardSeven = {
     destination: 'Arches National Park',
     date: 'Summer 2021',
-    summary: '“Tumbling…” (Inside joke) hehe. This trip was filled with pure unknowns. From the bus breaking down to somehow experiencing the moon slowly rise over Half Dome. I picked this picture because it has some sort of relaxing and peaceful vibe to it and it also has two different colors, black and white. Similar to our trip, where we experienced the beauty and immensity of nature, but also the craziness of San Francisco traffic and hippie professors.',
+    summary: 'Our favorite arch... Sand Dune. A complete 180 from Zion, Arches was filled with serenity, stillness, and gorgeous views. During this road trip the thought of many more adventures, and a life ahead with my best friend became more and more clear...',
     image: seventhPic,
     width: '250',
+    height: '300'
+}
+
+let cardEight = {
+    destination: '❤️',
+    date: 'Summer 2021',
+    summary: 'This woman right here deserves it all. Madilyn Maschhoff, during the summer of 2021, you have given me the best days of my life. Seeing you every single day was like a dream come true. You deserve everything in this world, you are bold, strong, driven, smart, beautiful, and most of all the funniest person I know. You are the reason I am who I am today. Thank you for being my best friend and my biggest supporter. Here is to an infinite life together. 🥂',
+    image: eightPic,
+    width: '195',
     height: '300'
 }
 
@@ -99,7 +109,7 @@ function Adventure() {
         height={cardOne.height}>
         </LeftCard>
 
-        <VerticalCard
+        <VerticalCard 
         destination={cardTwo.destination}
         date={cardTwo.date}
         summary={cardTwo.summary}
@@ -151,6 +161,15 @@ function Adventure() {
         image={cardSeven.image}
         width={cardSeven.width}
         height={cardSeven.height}>
+        </VerticalCard>
+
+        <VerticalCard 
+        destination={cardEight.destination}
+        date={cardEight.date}
+        summary={cardEight.summary}
+        image={cardEight.image}
+        width={cardEight.width}
+        height={cardEight.height}>
         </VerticalCard>
 
         </div>
