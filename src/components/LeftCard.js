@@ -6,7 +6,7 @@ export default function LeftCard(props) {
         <div className='container-1'>
             <div className='box-1'>
                 <h5 className='info'>{props.destination}<br></br>{props.date}</h5>
-                <img className='leftImage' src={props.image} alt={'leftImage'} width={props.width} height={props.height}></img>
+                <img className='leftImage' src={props.image} alt={'leftImage'} height={props.height}></img>
             </div>
             <div className='box-2'>
                 <p className='summary'>{props.summary}</p>
