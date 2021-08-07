@@ -9,6 +9,7 @@ import fifthPic from '../../images/IMG_2426.JPG';
 import sixthPic from '../../images/IMG_2955.jpg';
 import seventhPic from '../../images/IMG_4552.jpg';
 import eightPic from '../../images/013804010002.jpg'
+import ninthPic from '../../images/IMG_2711.jpg';
 
 import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
@@ -92,6 +93,15 @@ let cardEight = {
     height: '300'
 }
 
+let cardNine = {
+    destination: 'Lake Tahoe, California',
+    date: 'Summer 2021',
+    summary: 'First family trip together! This weekend trip was filled with laughter, wholesome family moments, and delicious food. We (by we I mean "I") conquered my fear of parasailing. I believe we also realized how blessed we are to have two beautiful, caring families that will be in this love journey with us. ❤️',
+    image: ninthPic,
+    width: '250',
+    height: '300'
+}
+
 function Adventure() {
   return (
     <main>
@@ -171,6 +181,15 @@ function Adventure() {
         width={cardEight.width}
         height={cardEight.height}>
         </VerticalCard>
+
+        <LeftCard 
+        destination={cardNine.destination}
+        date={cardNine.date}
+        summary={cardNine.summary}
+        image={cardNine.image}
+        width={cardNine.width}
+        height={cardNine.height}>
+        </LeftCard>
 
         </div>
     </main>
