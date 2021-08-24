@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../app/App.css';
 import './Adventure.css';
-import firstPic from '../../images/IMG_0895.JPG';
-import secondPic from '../../images/IMG_1487.JPG';
+import firstPic from '../../images/IMG_0895.jpeg';
+import secondPic from '../../images/IMG_1487.jpeg';
 import thirdPic from '../../images/IMG_4997 2.JPG';
-import fourthPic from '../../images/IMG_8061.JPG';
+import fourthPic from '../../images/IMG_8061.jpeg';
 import fifthPic from '../../images/IMG_2426.JPG';
 import sixthPic from '../../images/IMG_2955.jpg';
 import seventhPic from '../../images/IMG_4552.jpg';
