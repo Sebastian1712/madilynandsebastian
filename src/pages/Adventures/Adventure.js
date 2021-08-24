@@ -6,8 +6,8 @@ import secondPic from '../../images/IMG_1487.jpeg';
 import thirdPic from '../../images/IMG_4997 2.JPG';
 import fourthPic from '../../images/IMG_8061.jpeg';
 import fifthPic from '../../images/IMG_2426.JPG';
-import sixthPic from '../../images/IMG_2955.jpg';
-import seventhPic from '../../images/IMG_4552.jpg';
+import sixthPic from '../../images/IMG_2955-min.jpg';
+import seventhPic from '../../images/new_img-min.JPEG';
 import eightPic from '../../images/013804010002.jpg'
 import ninthPic from '../../images/IMG_2711.jpg';
 
