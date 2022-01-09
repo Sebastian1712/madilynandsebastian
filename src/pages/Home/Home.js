@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../app/App.css';
 import './Home.css';
 import '../../responsive/main.scss';
@@ -11,6 +11,11 @@ const purposeParagraph =
 </p1>
 
 function Home() {
+
+  useEffect(() => {
+    document.title = "Madilyn & Sebastian";
+  }, [])
+  
   return (
     <main>
         <div class="mainpage">

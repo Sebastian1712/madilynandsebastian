@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../app/App.css';
 import './Adventure.css';
 import firstPic from '../../images/IMG_0895.jpeg';
@@ -10,6 +10,7 @@ import sixthPic from '../../images/IMG_2955-min.jpg';
 import seventhPic from '../../images/new_img-min.JPEG';
 import eightPic from '../../images/013804010002.jpg'
 import ninthPic from '../../images/IMG_2711.jpg';
+import tenthPic from '../../images/newYears2021.jpg';
 
 import '../../images/style/ImageOne.css';
 import '../../images/style/ImageTwo.css';
@@ -102,7 +103,21 @@ let cardNine = {
     height: '300'
 }
 
+let cardTen = {
+    destination: 'Salt Lake City, Utah',
+    date: 'Winter 2021',
+    summary: 'Recharged & Refreshed. Those would be the two words that describe how we felt at the end of 2021. Spending time with my family in their new home state was not only a bonding experience between all (especially code names), but it was also a great cherry on top in our relationship. We were able to spend the days in tranquility enjoying the gaze of each other and occasionally being bit by the new cat Eevee. Overall we grew closer together once again as we hit the 6.5 year mark with each other. I could not have asked for a better life partner. 💞',
+    image: tenthPic,
+    width: '250',
+    height: '300'
+}
+
 function Adventure() {
+
+    useEffect(() => {
+        document.title = "Adventures"
+    }, [])
+    
   return (
     <main>
         <div>
@@ -190,6 +205,15 @@ function Adventure() {
         width={cardNine.width}
         height={cardNine.height}>
         </LeftCard>
+
+        <VerticalCard 
+        destination={cardTen.destination}
+        date={cardTen.date}
+        summary={cardTen.summary}
+        image={cardTen.image}
+        width={cardTen.width}
+        height={cardTen.height}>
+        </VerticalCard>
 
         </div>
     </main>
